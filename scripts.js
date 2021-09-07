@@ -50,12 +50,12 @@ document.addEventListener("keyup", (event)=> {
     if(event.keyCode == 32){
         if(isplaying){
             audio.pause();
-            imagen.style.animationPlayState = "paused"
+            img.style.animationPlayState = "paused"
             isplaying = false;
         }
         else{
             audio.play();
-            imagen.style.animationPlayState = "running"
+            img.style.animationPlayState = "running"
             isplaying = true;
         }
     }
